@@ -7,9 +7,13 @@ int main(){
     cin>> cups;
 
     if (cups>20){
-        cout << "You will get the gold batch";
-    } else if (){
+        cout << "You will get the gold batch"<<endl;
+    } else if (cups >= 10 && cups <= 20){
+        cout << "You will get the SILVER batch"<<endl;
 
-    } else
+    } else{
+        cout<<"No batch for you"<<endl;
+    }
     return 0; 
 }
+
